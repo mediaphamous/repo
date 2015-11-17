@@ -1,0 +1,19 @@
+<addons>
+<addon id="plugin.video.ricksbuild" name="Ricks Wizard" version="2.0.0" provider-name="Rick">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Ricks Wizard</summary>
+		<description lang="en">In this wizard you will find the latest Ricks build</description>
+		<disclaimer lang="en">Updates included are the following: DexterTv 1.0.6, A wide variety of Sports sections under Sports, updated Genesis and cosmetic issues and small bugs.</disclaimer>
+		<forum>mediaphamous.com</forum>
+		<source>Rick</source>
+		<website>https://www.youtube.com/channel/UCU2iJ3ZuuLeDiEhzT4KBT4Q</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
